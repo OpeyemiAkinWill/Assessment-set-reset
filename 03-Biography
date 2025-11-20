@@ -1,5 +1,3 @@
-// correction, I tried to use Constand Value, to prevent user entering wrong data type.
-
 #include <iostream>
 
 #include <string>
