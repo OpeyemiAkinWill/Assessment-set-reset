@@ -1,0 +1,38 @@
+#include <iostream>
+
+#include <string>
+
+using namespace std;
+
+int main() {
+  string Firstname; // To store the user's first name, container assigned to first name input
+  string Secondname; // To store the user's second name, container assigned to second name
+  string hometown; // To store the user's hometown, container assigned to home town, these are all strings variables.
+  int age; // To store the user's age (as a number) this is for number variable, allow user to enter numbers as opposed to entering letters.
+  cout << "Enter your First name: "; // Asking user to enter his or her first name.
+  cin >> Firstname; // Asking user to enter his or her first name only.
+
+  cout << "Enter your Second name: "; // Prompt for second name
+  cin >> Secondname; // prompt for second name.
+  cout << "Enter your hometown: "; // Prompt for hometown
+  cin >> hometown; // prompt to enter hometown.
+  cout << "Enter your age: "; // Prompt for age
+  cin >> age; // prompt for age. Number only
+
+  cout << Firstname << " " << Secondname << " is " << age <<
+    " years old and from " << hometown << "." << endl; // Display the information inputted
+  // the result of entering all the information provides these results Enter your First name: Yemi
+  // Enter your Second name: Lawal
+  // Enter your hometown: London
+  // Enter your age: 89
+  // Yemi Lawal is 89 years old and from London.
+
+  // === Code Execution Successful ===
+  return 0; // End of program
+} // but then if I entered random values, the program works though the values were incorrect, Enter your First name: yn
+// Enter your Second name: 78
+// Enter your hometown: jj
+// Enter your age: bb
+// yn 78 is 0 years old and from jj.
+
+// === Code Execution Successful ===
